@@ -1,0 +1,64 @@
+<!DOCTYPE html> <!--informs the web browser about the type and version of HTML used in building the website-->
+
+<html> <!--contains all html code-->
+
+  <head> <!--identifies header section to separate information that will not be shown in user interface-->
+    <meta charset="utf-8"> <!-- specifies the utf-8 character encoding of the page-->
+    <title>Brigitte's Engineering Portfolio</title> <!--defines the page's title that is shown in the page's tab-->
+    <link href="Bootstrap_4.3.1/css/bootstrap.css" rel="stylesheet" type="text/css"/> <!--imports Bootstrap style sheet to be used for web page-->
+  </head> <!--closing tag-->
+
+  <body> <!--identifies body section that encloses elements displayed on the web page-->
+
+    <div class="container"> <!--identifies container class that limits contained text from spreading across the page to the margins-->
+      <nav class="nav nav-pills nav-fill"> <!--nav is a component that builds strong foundation for many different navigation styles; nav-pills creates the different tabs in the navigation; nav-fill proportionally fills all available space with the navigation component-->
+        <a class="nav-item nav-link" href="index.html">Home</a> <!--nav-items are what go into the nav-pills; nav-link connects all of the web pages into the nav-pills-->
+        <a class="nav-item nav-link"  href="Ledergerber_AboutMe.html">About Me</a> <!--nav-items are what go into the nav-pills; nav-link connects all of the web pages into the nav-pills-->
+        <a class="nav-item nav-link"  href="Ledergerber_Resume.html">Work Experience</a> <!--nav-items are what go into the nav-pills; nav-link connects all of the web pages into the nav-pills-->
+        <a class="nav-item nav-link" href="Ledergerber_Projects.html">Projects</a> <!--nav-items are what go into the nav-pills; nav-link connects all of the web pages into the nav-pills-->
+        <a class="nav-item nav-link active" href="Ledergerber_ContactMe.html">Contact Me</a> 
+        <!--nav-items are what go into the nav-pills; nav-link connects all of the web pages into the nav-pills; active makes the corresponding pill to the webpage filled in with a solid color [like blue]-->
+      </nav> <!--closing tag-->
+    </div> <!--closing tag-->
+    
+    <div class="jumbotron text-center"> <!--identifies jumbotron class that allows text to spread across the page to the margins-->
+      <h1><strong>Contact Me</strong></h1> <!--text displayed on page-->
+      <h4>Brigitte Ledergerber</h4> <!--text displayed on page-->
+    </div> <!--closing tag-->
+
+    <section class="main"> <!--element that creates a generic document section on the web page; main class means the text in the main content area of the page is being affected-->
+      <div class="container"> <!--identifies container class that limits contained text from spreading across the page to the margins-->
+        <div class="row"> <!--places all following items in a row-->
+          <div class="col-md-12 text-center"> <!--causes the following content to occupy one row on a medium sized screen and centers the content-->
+            <br></br> <!--adds a line break in between elements-->
+            <a href="mailto:brigitte.ledergerber1@gmail.com"><h4>brigitte.ledergerber1@gmail.com</h4></a> <!--hyperlinks an outgoing email to my email address to the text--> 
+            <br></br> <!--adds a line break in between elements-->
+            <h4>Dublin, CA</h4> <!--text displayed on page-->
+            <br></br> <!--adds a line break in between elements-->
+          </div> <!--closing tag-->
+        </div> <!--closing tag-->
+      </div> <!--closing tag-->
+    </section> <!--closing tag-->
+
+  </body> <!--closing tag-->
+
+  <footer class="jumbotron"> <!--identifies jumbotron class that allows text to spread across the page to the margins-->
+
+    <div class="container"> <!--identifies container class that limits contained text from spreading across the page to the margins-->
+      <div class="row"> <!--places all following items in a row-->
+        <div class="col-3"> <!--causes following elements to take up 25% of row-->
+          <a href="mailto:brigitte.ledergerber1@gmail.com">
+            <img src="Images/gmail.png" style="max-width:200px; max-height:200px">
+          </a> <!--hyperlinks an outgoing email to my email address to a picture of the gmail icon-->
+        </div> <!--closing tag-->
+        <div class="col-5"> <!--causes following elements to take up 20% of row-->
+          <a href="http://www.dublin.k12.ca.us/dhs">
+            <img src="Images/dublin.png" style="max-width:100px" class="float-right">
+          </a> <!--hyperlinks DHS website to a picture of the DHS logo-->
+        </div> <!--closing tag-->
+      </div> <!--closing tag-->
+    </div> <!--closing tag-->
+
+  </footer> <!--closing tag-->
+
+</html> <!--closing tag-->
