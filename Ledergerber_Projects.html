@@ -1,97 +1,137 @@
-<!DOCTYPE html> <!--informs the web browser about the type and version of HTML used in building the website-->
+<!DOCTYPE html>
+<!--informs the web browser about the type and version of HTML used in building the website-->
 
-<html> <!--contains all html code-->
+<html>
+<!--contains all html code-->
 
-  <head> <!--identifies header section to separate information that will not be shown in user interface-->
-    <meta charset="utf-8"> <!-- specifies the utf-8 character encoding of the page-->
-    <title>Brigitte's Engineering Portfolio</title> <!--defines the page's title that is shown in the page's tab-->
-    <link href="Bootstrap_4.3.1/css/bootstrap.css" rel="stylesheet" type="text/css"/> <!--imports Bootstrap style sheet to be used for web page-->
-  </head> <!--closing tag-->
+<head>
+	<!--identifies header section to separate information that will not be shown in user interface-->
+	<meta charset="utf-8">
+	<!-- specifies the utf-8 character encoding of the page-->
+	<title>Brigitte's Engineering Portfolio</title>
+	<!--defines the page's title that is shown in the page's tab-->
+	<link href="Bootstrap_4.3.1/css/bootstrap.css" rel="stylesheet" type="text/css" />
+	<!--imports Bootstrap style sheet to be used for web page-->
+</head>
+<!--closing tag-->
 
-  <body> <!--identifies body section that encloses elements displayed on the web page-->
+<body>
+	<!--identifies body section that encloses elements displayed on the web page-->
 
-    <div class="container"> <!--identifies container class that limits contained text from spreading across the page to the margins-->
-      <nav class="nav nav-pills nav-fill"> <!--nav is a component that builds strong foundation for many different navigation styles; nav-pills creates the different tabs in the navigation; nav-fill proportionally fills all available space with the navigation component-->
-        <a class="nav-item nav-link" href="index.html">Home</a> <!--nav-items are what go into the nav-pills; nav-link connects all of the web pages into the nav-pills-->
-        <a class="nav-item nav-link"  href="Ledergerber_AboutMe.html">About Me</a> <!--nav-items are what go into the nav-pills; nav-link connects all of the web pages into the nav-pills-->
-        <a class="nav-item nav-link"  href="Ledergerber_Resume.html">Work Experience</a> <!--nav-items are what go into the nav-pills; nav-link connects all of the web pages into the nav-pills-->
-        <a class="nav-item nav-link active" href="Ledergerber_Projects.html">Projects</a> <!--nav-items are what go into the nav-pills; nav-link connects all of the web pages into the nav-pills; active makes the corresponding pill to the webpage filled in with a solid color [like blue]-->
-        <a class="nav-item nav-link" href="Ledergerber_ContactMe.html">Contact Me</a> <!--nav-items are what go into the nav-pills; nav-link connects all of the web pages into the nav-pills--> 
-      </nav> <!--closing tag-->
-    </div> <!--closing tag-->
-    
-    <div class="jumbotron text-center"> <!--identifies jumbotron class that allows text to spread across the page to the margins-->
-      <h1><strong>Projects</strong></h1> <!--bolded text displayed on page-->
+	<div class="container">
+		<!--identifies container class that limits contained text from spreading across the page to the margins-->
+		<nav class="nav nav-pills nav-fill">
+			<!--nav is a component that builds strong foundation for many different navigation styles; nav-pills creates the different tabs in the navigation; nav-fill proportionally fills all available space with the navigation component-->
+			<a class="nav-item nav-link" href="index.html">Home</a>
+			<!--nav-items are what go into the nav-pills; nav-link connects all of the web pages into the nav-pills-->
+			<a class="nav-item nav-link" href="Ledergerber_AboutMe.html">About Me</a>
+			<!--nav-items are what go into the nav-pills; nav-link connects all of the web pages into the nav-pills-->
+			<a class="nav-item nav-link" href="Ledergerber_Resume.html">Work Experience</a>
+			<!--nav-items are what go into the nav-pills; nav-link connects all of the web pages into the nav-pills-->
+			<a class="nav-item nav-link active" href="Ledergerber_Projects.html">Projects</a>
+			<!--nav-items are what go into the nav-pills; nav-link connects all of the web pages into the nav-pills; active makes the corresponding pill to the webpage filled in with a solid color [like blue]-->
+			<a class="nav-item nav-link" href="Ledergerber_ContactMe.html">Contact Me</a>
+			<!--nav-items are what go into the nav-pills; nav-link connects all of the web pages into the nav-pills-->
+		</nav>
+		<!--closing tag-->
+	</div>
+	<!--closing tag-->
+
+	<div class="jumbotron text-center">
+		<!--identifies jumbotron class that allows text to spread across the page to the margins-->
+		<h1><strong>Projects</strong></h1> <!--bolded text displayed on page-->
       <h4>Brigitte Ledergerber</h4> <!--text displayed on page-->
     </div> <!--closing tag-->
 
-    <div class="container"> <!--identifies container class that limits contained text from spreading across the page to the margins-->
-
-      <div class="row"> <!--places all following items in a row-->
-
-        <div class="col-md-12"> <!--causes the following content to occupy one row on a medium sized screen-->
-          <div class="card flex-md-row"> <!--sets the direction of items in flex container to medium sized browser's default settings-->
-            <div class="card-body"> <!--following information will be displayed inside a section of the table-->
+    <section class="main"> <!--element that creates a generic document section on the web page; main class means the text in the main content area of the page is being affected-->
+      <div class="container"> <!--identifies container class that limits contained text from spreading across the page to the margins-->
+        <div class="row"> <!--places all following items in a row-->
+          <div class="col-md-12"> <!--causes the following content to occupy one row on a medium sized screen-->
+             <body>
+              <img align="right" width="250" height="250" src="Images/solar_vehicle.PNG" style="padding-left: 10px"/> <!--adds image of project to the right of the text-->
               <a href="https://docs.google.com/document/d/1bQp2V9bK0JHhWxV0j4FKc7dqKguwbEYL1wzEArmkvwM/edit"><h3>Solar Hydrogen Vehicle</h3></a> <!--hyperlinks project documentation to project title-->
               <h4>Principles of Engineering - November 1st to 16th, 2018</h4> <!--text displayed on page-->
-              <p>The objective of this project was to build a prototype of a car that demonstrates solar and hydrogen technologies and can test and compare the power sources. My specific role in this project, as the group leader,  was designing ways for the cells to be held in place while the car is moving, write about my team's final design in the documentation, and keeping my team on task. One challenge my team and I overcame was finding an effective and cosmetically pleasing way for the cells to be secured to the car while it is moving. At first my group utilized rubber bands to do so, but the cells were not stable enough and the design looked unproffesional. I was the group leader of this project, which means I was responsible for my team's productivity and completion of the project on time. Working with a team also required the four of us to all be open minded and willing to compromise on design decisions.
-              </p> <!--text displayed on page-->
-            </div> <!--closing tag-->
-            <img class="img-thumbnail" style='max-width:400px; max-height:400px' src="Images/solar_vehicle.PNG" alt="Card image"> <!--adds image of project to the right of the text-->
-          </div> <!--closing tag-->
-        </div> <!--closing tag-->
+              <p>The objective of this project was to build a car prototype that demonstrates solar and hydrogen technologies. The car must also test and compare the power sources. My specific role in this project, as the group leader, was designing ways for the cells to be held in place while the car is moving, write about my team's final design in the documentation, and keeping my team on task. One challenge my team and I overcame was finding an effective and cosmetically pleasing way for the cells to be secured to the car while it is moving. At first, my group utilized rubber bands to do so, but the cells were not stable enough, and the design looked unprofessional. I was the group leader of this project, which means I was responsible for my team's productivity and completing the project on time. Working with a team also required the four of us to be open-minded and willing to compromise on design decisions.
+              </p>
+              </body> <!--text displayed on page-->
+           <!-- </div> <!--closing tag-->
+            
+         <!-- </div> <!--closing tag-->
+       <!-- </div> <!--closing tag-->
 
-      </div> <!--closing tag-->
+      <!--</div> <!--closing tag-->
 
-      <div class="row"> <!--places all following items in a row-->
+     <!-- <div class="row"> <!--places all following items in a row-->
 
-        <div class="col-md-12"> <!--causes the following content to occupy one row on a medium sized screen-->
-          <div class="card flex-md-row"> <!--sets the direction of items in flex container to medium sized browser's default settings-->
-            <div class="card-body"> <!--following information will be displayed inside a section of the table-->
+      <!--  <div class="col-md-12"> <!--causes the following content to occupy one row on a medium sized screen-->
+         <!-- <div class="card flex-md-row"> <!--sets the direction of items in flex container to medium sized browser's default settings-->
+           <!-- <div class="card-body"> <!--following information will be displayed inside a section of the table-->
+              <body>
+              <img align="right" width="250" height="250" src="Images/projectile.PNG" style="padding-left: 10px"/> <!--adds image of project to the right of the text-->
               <a href="https://docs.google.com/document/d/15FHO92jGGVfuXLuVUfCpsRmPCIMWTSvzRKlA3mtMQrk/edit?usp=sharing"><h3>Aerodynamic Projectile</h3></a> <!--hyperlinks project documentation to project title-->
               <h4>Principles of Engineering - January 18th to 24th, 2019</h4> <!--text displayed on page-->
-              <p>The objective of this project was to build two prototype projectiles that exhibit properties of velocity in order to test and evaluate aerodynamic design decisions. My role in this project was to brainstorm and design two protoype projectiles. First, I was required to create and build one design, then test it. After evaluating my first design through a launch test, I made a second desgin with modifications that would aid my projectile in flying farther. I was also responsible for the analysis and collection of my data and modification process. One challenge my team and I overcame was how to modify our projectiles in order for them to be lighter and have less wind resistance. We decided to omit the exposure of the paper material on the rocket in order to make the shape of the rocket smoother, therefore experiencing less resisitance. While working together, my partner and I were required to be respectful of eachothers decisions and ideas, while remaining on task and focused.
-              </p> <!--text displayed on page-->
-            </div> <!--closing tag-->
-            <img class="img-thumbnail" style='max-width:400px; max-height:400px' src="Images/projectile.PNG" alt="Card image"> <!--adds image of project to the right of the text-->
-          </div> <!--closing tag-->
-        </div> <!--closing tag-->
+              <p>For this project, I had to build two prototype projectiles. The objective was to exhibit properties of velocity to test and evaluate aerodynamic design decisions. My role in this project was to brainstorm and design two prototype projectiles. First, I was required to create and build one design, then test it. After evaluating my first design through a launch test, I made a second design with modifications to aid my projectile in flying farther. I was also responsible for the analysis and collection of my data and modification process. One challenge my team and I overcame was how to modify our projectiles for them to be lighter and have less wind resistance. We decided to omit the exposure of the paper material on the rocket. Making the surface of the rocket smoother resulted in less air resistance. While working together, my partner and I were required to be respectful of each other's decisions and ideas while remaining on task and focused.
+              </p> 
+              </body><!--text displayed on page-->
+            <!--</div> <!--closing tag-->
+           
+         <!-- </div> <!--closing tag-->
+       <!-- </div> <!--closing tag-->
 
 
-      </div> <!--closing tag-->
+      <!--</div> <!--closing tag-->
       
-        <div class="row"> <!--places all following items in a row-->
+       <!-- <div class="row"> <!--places all following items in a row-->
 
-          <div class="col-md-12"> <!--causes the following content to occupy one row on a medium sized screen-->
-            <div class="card flex-md-row"> <!--sets the direction of items in flex container to medium sized browser's default settings-->
-              <div class="card-body"> <!--following information will be displayed inside a section of the table-->
+         <!-- <div class="col-md-12"> <!--causes the following content to occupy one row on a medium sized screen-->
+           <!-- <div class="card flex-md-row"> <!--sets the direction of items in flex container to medium sized browser's default settings-->
+             <!-- <div class="card-body"> <!--following information will be displayed inside a section of the table-->
+               <body>
+                <img align="right" width="250" height="250" src="Images/home.PNG" style="padding-left: 10px"/> <!--adds image of project to the right of the text-->
                 <a href="Ledergerber_AboutMe.html"><h3>Online Portfolio</h3></a> <!--hyperlinks webpage to project title-->
                 <h4>Computer Science Principles - November 6th to December 3rd, 2019</h4> <!--text displayed on page-->
-                <p>The objective of this project was to create a multi-page website using HTML and Bootstrap to practice web development. The main challenge I faced with this project was formatting the home page so that all of the different cells lined up with each other, leaving no extra white space. The easiest part of this project for me was deciding what to write on my “About Me Page” because I already have a relatively clear idea of my goals. The most interesting part of this project was learning about how different HTML commands interacted with Bootstrap to modify different aspects of the website. This was an individual project, so I created on this website by myself. Working alone was beneficial because it allowed me to control the timeline in which I would complete the project and work on the project more efficiently. However, I found that when working alone, I did not have the benefit of a variety of ideas being contributed and the fun of working in collaboration with others.
-               </p> <!--text displayed on page-->
-             </div> <!--closing tag-->
-              <img class="img-thumbnail" style='max-width:400px; max-height:400px' src="Images/home.PNG" alt="Card image"> <!--adds image of project to the right of the text-->
-            </div> <!--closing tag-->
+                <p>The objective of this project was to practice website development. I created a multi-page website using HTML and Bootstrap. The main challenge I faced with this project was formatting the home page so that all of the different cells lined up with each other, leaving no extra white space. The easiest part of this project was changing the colors of the text and buttons. The most interesting part of this project was learning about how different HTML commands interacted with Bootstrap. I tested various commands to modify aspects of the website. This was an individual project. Working alone was beneficial because it allowed me to control the timeline in which I would complete the project and work on the project more efficiently. However, I found that when working alone, I did not have the benefit of a variety of ideas from different brains. I also missed the fun of working in collaboration with others.
+               </p>
+               </body> <!--text displayed on page-->
+             <!--</div> <!--closing tag-->
+            
+           <!-- </div> <!--closing tag-->
 
-          </div> <!--closing tag-->
+         <!-- </div> <!--closing tag-->
 
-      </div> <!--closing tag-->
+      <!--</div> <!--closing tag-->
 
-    <div class="row"> <!--places all following items in a row-->
+   <!-- <div class="row"> <!--places all following items in a row-->
 
-      <div class="col-md-12"> <!--causes the following content to occupy one row on a medium sized screen-->
-       <div class="card flex-md-row"> <!--sets the direction of items in flex container to medium sized browser's default settings-->
-         <div class="card-body"> <!--following information will be displayed inside a section of the table-->
-            <a href="https://docs.google.com/presentation/d/1RRxqVYoOYNePJrF0tjzEvQMJNJH8QpXBDoyy3C4CwNs/edit?usp=sharing"><h3>Image Manipulation Project</h3></a> <!--hyperlinks project documentation to project title-->
+     <!-- <div class="col-md-12"> <!--causes the following content to occupy one row on a medium sized screen-->
+      <!-- <div class="card flex-md-row"> <!--sets the direction of items in flex container to medium sized browser's default settings-->
+       <!--  <div class="card-body"> <!--following information will be displayed inside a section of the table-->
+           <img align="right" width="250" height="250" src="Images/Image_Project.jpg" style="padding-left: 10px"/>
+           <body> <a href="https://docs.google.com/presentation/d/1RRxqVYoOYNePJrF0tjzEvQMJNJH8QpXBDoyy3C4CwNs/edit?usp=sharing"><h3>Image Manipulation Project</h3></a> <!--hyperlinks project documentation to project title-->
               <h4>Computer Science Principles - March 16th to April 3rd, 2020</h4> <!--text displayed on page-->
-              <p>The objective of this project was to use code to manipulate a photo to meet the needs of a specific client. With this project being an individual project, my role was to edit and tweak already given code to change the appearance of an image. Along with this aspect of the project, I also needed to create a google slideshow explaining my changes and log my progress in a project log. A challenge I overcame was finding a unique and original way to edit my image to meet the client's needs. In order to overcome this I spent a lot of time exploring the code and figuring out how the image would change based on which values in the code I edited. This helped me to gain a better understanding of how the code ran and after testing many different outcomes I was able to settle upon one I believed was creative and original.</p> <!--text displayed on page-->
-         </div> <!--closing tag-->
-            <img class="img-thumbnail" style='width:400px; height:400px' src="Images/Image_Project.jpg" alt="Card image"> <!--adds image of project to the right of the text-->
+              <p>The objective of this individual project was to manipulate a photo to meet the needs of a client. My role was to edit and tweak pre-existing code to change the appearance of an image. Along with this aspect of the project, I also needed to create a google slideshow explaining my changes and log my progress in a project log. A challenge I overcame was finding a unique and original way to edit my image to meet the client's needs. To overcome this challenge, I took time to explore the code. I figured out how the image would change based on which values in the code I edited. This exploration helped me to gain a better understanding of how the code ran. After testing many different outcomes, I settled on the one I believed was creative and original.</p> <!--text displayed on page-->
+              </body>
+        <!-- </div> <!--closing tag-->
+             <!--adds image of project to the right of the text-->
+      <!--  </div> <!--closing tag-->
+     <!-- </div> <!--closing tag-->
+     <img align="right" width="250" height="250" src="Images/biome.png" style="padding-left: 10px"/>
+           <body><h3>Biome Poster Project</h3> <!--hyperlinks project documentation to project title-->
+              <h4>AP Environmental Science - September 13th to September 20th, 2019</h4> <!--text displayed on page-->
+              <p>For this project, I created a poster displaying a Biome and its properties. The purpose of this project was to answer these questions: Have you ever wondered why different biomes or ecosystems are located where they are? Why do San Diego, California, and Savannah, Georgia have different climates when they are at the same latitude? I chose a random set of coordinates to select my biome, and I landed on Borneo. Borneo is a tropical rainforest biome. I researched the topography of the island and drew the changes in elevation on my biome poster. I also labeled different ocean currents because these currents affect the body of the land's climate. Determining the measurement scale between the actual island and my drawing was the most challenging part of this project. The least challenging aspect of this project was identifying the island's climate and biome. The nearby currents were also easily identifiable.</p> <!--text displayed on page-->
+              </body>
+ <img align="right" width="250" height="250" src="Images/bbg.png" style="padding-left: 10px"/>
+           <body> <a href="https://youtu.be/Clmjc-Re854"><h3>Sustainable Agriculture Project</h3></a> <!--hyperlinks project documentation to project title-->
+              <h4>AP Environmental Science - November 22nd to December 2nd, 2019</h4> <!--text displayed on page-->
+              <p>This project required me to educate myself on an environmental science topic and design a presentation to teach the topic to the rest of the class. I chose to do this project in a group because I believed it would aid in the brainstorming process. My group and I did our project on Sustainable Agriculture and presented it to the class using a music video. We created an original song that covers sustainable agricultural and food production practices. We taught our class that the goal of soil conservation is to prevent soil erosion. In our video, we defined various soil conservation methods. These methods are contour plowing, windbreaks, perennial crops, terracing, no-till agriculture, and strip cropping. My group and I also taught our class about crop rotation and the addition of green manure/limestone, which are strategies to improve soil fertility. Finally, we explained rotational grazing to our class. Rotational grazing is the regular rotation of livestock between different pastures to avoid overgrazing a particular area. The most challenging aspect of this project was writing lyrics to an original song covering all of these topics. The least challenging parts of this project were the research and the video production. We completed extensive research before producing our video, which was easy to do because of our previous knowledge of the subject. The video production was simple because working in a group made it easier to record and edit our video.</p> <!--text displayed on page-->
+              </body>
+
+   <!-- </div> <!--closing tag-->
+  </div> <!--closing tag-->
         </div> <!--closing tag-->
       </div> <!--closing tag-->
+    </section> <!--closing tag-->
 
-    </div> <!--closing tag-->
-  </div> <!--closing tag-->
   </body> <!--closing tag-->
 
   <footer class="jumbotron"> <!--identifies jumbotron class that allows text to spread across the page to the margins-->
